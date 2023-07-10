@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_products",
+  "info": {
+    "name": "order_product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qty": {
+      "type": "biginteger",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": false
+    }
+  }
+}

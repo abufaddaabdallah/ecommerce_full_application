@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "order_statuses",
+  "info": {
+    "name": "order_status"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pending": {
+      "type": "string",
+      "unique": true
+    },
+    "shipped": {
+      "type": "string",
+      "unique": true
+    },
+    "processing": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
