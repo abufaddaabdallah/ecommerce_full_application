@@ -29,6 +29,11 @@
     },
     "order_status": {
       "model": "order-status"
+    },
+    "products": {
+      "via": "orders",
+      "collection": "product",
+      "dominant": true
     }
   }
 }
