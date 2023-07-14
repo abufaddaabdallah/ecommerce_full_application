@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adonis_schema_versions",
+  "info": {
+    "singularName": "adonis-schema-version",
+    "pluralName": "adonis-schema-versions",
+    "displayName": "adonis_schema_version"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "version": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

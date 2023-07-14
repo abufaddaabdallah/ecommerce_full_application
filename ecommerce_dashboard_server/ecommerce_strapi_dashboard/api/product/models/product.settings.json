@@ -38,13 +38,12 @@
       "via": "products",
       "collection": "order"
     },
-    "image": {
-      "model": "file",
+     "image": {
+      "type": "string",
       "via": "related",
       "allowedTypes": [
         "images"
       ],
-      "plugin": "upload",
       "required": true,
       "pluginOptions": {}
     }
